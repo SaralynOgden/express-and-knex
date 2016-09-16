@@ -1,0 +1,17 @@
+{
+  "name": "tues_example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "knex": "knex",
+    "heroku-postbuild": "knex migrate:latest",
+    "nodemon": "nodemon server.js"
+  },
+  "author": "saralyn ogden <Saralyn.Ogden@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "knex": "^0.12.0",
+    "pg": "^6.1.0"
+  }
+}
